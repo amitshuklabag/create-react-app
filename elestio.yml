@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  app:
+    container_name: nodejs/create-react-app
+    image: react-react-app
+    restart: always
+    build:
+      context: .
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 80:3000
+    environment:
+      DOMAIN: https://[DOMAIN]
