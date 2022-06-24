@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" />
-        <p>Elestio React Example AMIT</p>
+        <p>Elestio React Example Amit Shukla</p>
         <a
           className="App-link"
           href="https://elest.io/"
