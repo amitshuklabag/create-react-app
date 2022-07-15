@@ -20,7 +20,7 @@ ports:
        listeningPort: "443"
        targetPort: "3000"
        public: true
-       path: "/"
+       path: "/app"
        isAuth: false
        login: ""
        password: ""
